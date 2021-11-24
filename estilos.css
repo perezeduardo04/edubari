@@ -1,0 +1,166 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*estilos globales del mi sitio*/
+body{
+        background: #000;
+    
+    }
+
+h1,h2{
+        color: #fff;
+}
+
+header{
+        background-image: url(multimedia/banner1.png) ;
+        width: 100%;
+        border: solid 0.0625em #000}
+
+
+footer{
+    
+        background-color: #444;
+        color: #fff; 
+        text-align: center;  
+        font-family: 'Genos', sans-serif; 
+      }
+
+h3   {
+          width:  2s;
+     }
+
+h3:hover{
+          width: 12.5em;
+        }
+
+
+.fieldset{
+           color: #fff; 
+           font-family: 'Genos', sans-serif; 
+           margin: 10px; 
+
+         }
+
+.recetas{
+    color:#fff ;
+    text-align: left;
+    margin-top: -110px;
+    list-style: none;
+    text-transform: initial;
+    
+    
+        }
+
+
+.menuFlex{
+            width: 100%;
+            display: flex;
+            flex-flow: wrap-reverse wrap;
+            margin: 5%;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: 'Genos', sans-serif;       
+        }
+
+/*fin de estilos globales del sitio*/
+
+.borde{
+
+        
+         
+         height:100%;
+         width: 100%;
+         list-style: none;
+         text-decoration: none;
+      }
+
+
+.color1{
+
+          background: #eeeeee;
+     
+       }
+
+
+
+
+.color3{
+
+           background: #dcc314;
+       }
+
+
+
+.color4{
+
+         background: #295ba7;
+       }        
+
+
+
+
+
+.letras{
+
+      margin: 10px;
+      padding: 5px;
+      font-family: 'Genos', sans-serif; 
+      
+        }
+
+
+/*estos son los estilos de mi grid*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3.125em;
+    grid-row-gap: 0.625em;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+            transform: translate(1.25em, 0.625em);
+          }       
+    
+    .div2 { grid-area: 1 / 2 / 2 / 3;
+            background-color: #000;
+            color: #fff;
+            margin-top: 100px;
+            font-family: 'Genos', sans-serif; 
+          }
+    
+    .div3 { grid-area: 2 / 1 / 3 / 2;
+            margin-top: 130px;
+            margin-left: 5px;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Genos', sans-serif; 
+          } 
+    }
+    .div4 { grid-area: 2 / 2 / 3 / 3;}
+    .div5 { grid-area: 3 / 1 / 4 / 2; 
+            margin: 10px;
+            
+           
+          }
+    .div6 { grid-area: 3 / 2 / 4 / 3; 
+            margin-top: 110px;
+            background-color: #000;
+            color: #fff; 
+            font-family: 'Genos', sans-serif; 
+          }
+/*fin de estilos para grid*/           
+
+          
+     
+
+
+
+
+
+
+ 
+
+
